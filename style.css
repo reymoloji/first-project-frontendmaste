@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+header {
+    background-image: url("./images/bg-header-desktop.png");
+    background-repeat: round;
+}
+
+.headerImg {
+    padding: 60px 15px;
+}
+
+.headerImg img {
+    max-width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+
+.headerContent {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+
+}
+
+.headerContent h1 {
+    width: 100%;
+    font-weight: 600;
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+    font-size: 36px;
+}
+
+.headerContent p {
+    width: 100%;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.5;
+    color: hsl(210, 10%, 33%);
+}
+
+button {
+    width: 180px;
+    height: 40px;
+    background-color: hsl(233, 100%, 69%);
+    border-radius: 25px;
+    border: none;
+    margin-right: 20px;
+    border-bottom: 2px solid rgb(69, 90, 245);
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    z-index: 1;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(234, 38%, 72%);
+    border-bottom: 2px solid hsl(233, 100%, 69%);
+
+}
+
+.iosGreenButton {
+    background-color: hsl(171, 66%, 44%);
+    border-bottom: 2px solid hsl(171, 86%, 30%);
+}
+
+
+.iosGreenButton:hover {
+    background-color: hsl(171, 55%, 64%);
+    border-bottom: 2px solid hsl(171, 66%, 44%);
+}
+
+.searchSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.searchSection h2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 120px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    font-size: 32px;
+
+}
+
+.searchParagraph {
+    width: 40%;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-weight: 400;
+    opacity: 0.5;
+    color: hsl(210, 10%, 33%);
+    line-height:1.5;
+}
+
+.imacSection {
+    width: 100%;
+    display: flex;
+}
+
+.imacSection img {
+    width: 50%;
+    height: 600px;
+    margin: 0 0 0 -50px;
+}
+
+.imacSectionParagraph {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: hsl(210, 10%, 33%);
+    margin: 20px 0 0 80px;
+}
+
+.imacSectionParagraph h3 {
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.imacSectionParagraph p {
+    line-height: 2;
+    opacity: 0.5;
+    font-size: 20px;
+}
+
+.accessSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.accessSection h2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 120px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    font-size: 40px;
+
+}
+
+.accessSection p {
+    width: 100%;
+    font-size: 20px;
+    margin: 25px 370px 60px 370px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.5;
+    color: hsl(210, 10%, 33%);
+}
+
+.boxesSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    font-size: 18px;
+    color: hsl(210, 10%, 33%);
+    width: 100%;
+ 
+}
+
+.boxesSection h3 {
+    margin: 25px 0 25px 0;
+}
+.boxesSection p {
+    font-size: 20px;
+    color: hsl(201, 11%, 66%);
+    text-align: center;
+    line-height: 1.5;
+    width: 75%;
+}
+
+.supportSection {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 150px 0 150px 0;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 152px;
+    background-color: hsl(180, 3%, 94%);
+    margin-top: 180px;
+}
+
+.footerIcon img {
+    max-width: 50px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+.footerList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footerList ul {
+    list-style-type: none;
+}
+
+.footerList li {
+    overflow: hidden;
+    padding: 15px 50px;
+    font-size: 20px;
+    color: hsl(201, 11%, 66%);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.socialMedia {
+    margin-top: 30px;
+}
+
+.socialMedia img {
+    margin-right: 10px;
+    cursor: pointer;
+}
